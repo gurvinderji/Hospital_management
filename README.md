@@ -98,38 +98,9 @@ api/
 
 4. **Configure environment variables** (see [Environment Variables](#environment-variables) section)
 
-## Environment Variables
 
-Create a `.env` file in the root directory with the following variables:
 
-```env
-# Server Configuration
-PORT=8080
 
-# Database
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
-
-# Frontend URLs
-FRONTEND_URL=http://localhost:3000
-DASHBOARD_URL=http://localhost:3001
-
-# Cloudinary Configuration
-CLOUDINERY_CLOUD_NAME=your_cloud_name
-CLOUDINERY_API_KEY=your_api_key
-CLOUDINERY_API_SECRET=your_api_secret
-
-# JWT Configuration
-JWT_SECRET=your_secret_key_here
-JWT_EXPIRE=7d
-
-# SMTP Configuration (if needed for emails)
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_USER=your_email@gmail.com
-SMTP_PASS=your_app_password
-```
-
-**Important**: Never commit the `.env` file. It contains sensitive information.
 
 ## Running the Project
 
